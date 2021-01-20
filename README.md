@@ -1,77 +1,76 @@
 ## Babel Elements Extension
 
-### Components
-
-#### Elements
+### Elements
 
 
-1. Main Header
+#### Main Header
 
-Single Image
-Title 
-Content (rich-editor)
-Comment
-Button (Optional)
+- Single Image
+- Title 
+- Content (rich-editor)
+- Comment
+- Button (Optional)
 - Button Text
 - Button URL
 
-2. Featured Items
+#### Featured Items
 
-Title 
-Sub-title
-Comment
+- Title 
+- Sub-title
+- Comment
 
-Add menu items from component settings. 
+_Add menu items from component settings._
 
-3. Info Cards
-Compatible with Font Awesome Iconsompatible with Font Awesome Icons
+#### Info Cards
+
+Compatible with Font Awesome Icons  
 https://fontawesome.com/
 
-Themify Icons - Next Update
-Flaticon Icons -  Next Update
+Themify Icons - Next Update  
+Flaticon Icons -  Next Update  
 
-4. Video Element
+#### Video Element
 
-Single Image
-Title 
-Sub-title
-Video URL: https://www.youtube.com/embed/VIDEO_ID
+- Single Image
+- Title 
+- Sub-title
+- Video URL Format: https://www.youtube.com/embed/VIDEO_ID
 
-5. Image and Text
+#### Image and Text
 
-Single Image
-Title 
-Sub-title
-Comment
-Text area background color
+- Single Image
+- Title 
+- Sub-title
+- Comment
+- Text area background color
 
-6. Gallery
+#### Gallery
 
-Multiple Images
-Title 
-Sub-title
-Comment
+- Multiple Images
+- Title 
+- Sub-title
+- Comment
 
-Pending: custm height & width
+_Pending: custom height & width_
 
-7. Menu List (not ready yet)
+#### Menu List (not ready yet)
 
-Custom menu item list // Dine-in Menu 
-Add menu items from component settings. 
+Custom menu item list // Dine-in Menu  
+Add menu items from component settings.   
 
 
-## Installation
+### Installation
 
-Add to extensions/babel/elements
-Enable extension in Admin -> System -> Extensions
-Add this line of code at the end of your main .scss file (i.e: themes/tastyigniter-orange/assets/src/scss/app.scss)
+- Add to extensions/babel/elements
+- Enable extension in Admin -> System -> Extensions
+- Add this line of code at the end of your main .scss file (i.e: themes/tastyigniter-orange/assets/src/scss/app.scss)
 
-// Extensions
-@import "extensions/+import.extensions";
+`// Extensions`  
+`@import "extensions/+import.extensions";`
 
-Save your theme settings. (Admin -> Design -> Themes -> YourTheme -> Customise -> Save)
+*Save your theme settings. (Admin -> Design -> Themes -> YourTheme -> Customise -> Save)*
 
 ## Usage 
 
-Admin -> Design -> Elements
+Admin -> Design -> Elements  
 You can create as many elements as you want and place it on your pages.
