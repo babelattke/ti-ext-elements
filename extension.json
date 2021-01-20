@@ -1,0 +1,18 @@
+{
+    "code": "babel.elements",
+    "name": "Babel Elements",
+    "description": "Babel Elements Settings",
+    "version": "0.0.1",
+    "author": "Babelattke",
+    "icon": {
+      "class": "fas fa-sitemap",
+      "color": "#FFF",
+      "backgroundColor": "#2B7BA9"
+    },
+    "homepage": "https://github.com/babelattke/ti-ext-elements",
+    "require": {      
+      "igniter.frontend": "*",
+      "igniter.local": "*",
+      "igniter.pages": "*"
+    }
+  }
