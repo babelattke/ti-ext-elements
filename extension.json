@@ -2,7 +2,7 @@
     "code": "babel.elements",
     "name": "Babel Elements",
     "description": "Babel Elements Settings",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Babelattke",
     "icon": {
       "class": "fas fa-sitemap",
