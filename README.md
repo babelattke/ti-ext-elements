@@ -1,5 +1,12 @@
 ## Babel Elements Extension
 
+**Compatibility** 
+
+| Extension        | Version           | Test Date  |
+| ------------- |:-------------:| -----:|
+| TastyIgniter      | 3.0.4.beta.26 | 22/01/2021 |
+
+
 ### Elements
 
 
@@ -63,7 +70,8 @@ Add menu items from component settings.
 
 - Add to extensions/babel/elements
 - Enable extension in Admin -> System -> Extensions
-- Add this line of code at the end of your main .scss file (i.e: themes/tastyigniter-orange/assets/src/scss/app.scss)
+- Add this line of code at the end of your main .scss file  
+ _(i.e: themes/yourTheme/assets/src/scss/app.scss)_
 
 `// Extensions`  
 `@import "extensions/+import.extensions";`
