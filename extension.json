@@ -1,7 +1,7 @@
 {
     "code": "babel.elements",
-    "name": "Babel Elements",
-    "description": "Babel Elements Settings",
+    "name": "Elements",
+    "description": "Add new elements to your TastyIgniter site! Banners, Gallery, Info Cards, etc.",
     "version": "0.0.2",
     "author": "Babelattke",
     "icon": {

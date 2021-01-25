@@ -76,6 +76,10 @@ Add menu items from component settings.
 `// Extensions`  
 `@import "extensions/+import.extensions";`
 
+<p align="center">
+    <img src="https://github.com/babelattke/ti-ext-elements/raw/main/images/example.png">  
+</p>
+
 *Save your theme settings. (Admin -> Design -> Themes -> YourTheme -> Customise -> Save)*
 
 ## Usage 
