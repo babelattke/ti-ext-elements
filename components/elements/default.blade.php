@@ -14,6 +14,12 @@
     @elseif ($element->istypeH) 
         @partial('@typeH') 
     @elseif ($element->istypeI) 
-        @partial('@typeI')       
+        @partial('@typeI')   
+    @elseif ($element->istypeJ) 
+        @partial('@typeJ')  
+    @elseif ($element->istypeK) 
+        @partial('@typeK')  
+    @elseif ($element->istypeL) 
+        @partial('@typeL')       
     @endif
 @endif

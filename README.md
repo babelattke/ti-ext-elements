@@ -4,7 +4,7 @@
 
 | Extension        | Version           | Test Date  |
 | ------------- |:-------------:| -----:|
-| TastyIgniter      | 3.0.4.beta.26 | 22/01/2021 |
+| TastyIgniter      | 3.0.4 | 25/06/2021 |
 
 
 ### Elements
@@ -59,6 +59,21 @@ Flaticon Icons -  Next Update
 - Comment
 
 _Pending: custom height & width_
+
+#### Full Post
+
+- Single Image
+- Title 
+- Sub-title
+- Comment
+
+
+#### Single Post
+
+- Single Image
+- Title 
+- Sub-title
+- Comment
 
 #### Menu List (not ready yet)
 

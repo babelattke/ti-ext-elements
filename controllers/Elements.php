@@ -58,10 +58,11 @@ class Elements extends \Admin\Classes\AdminController
         $namedRules = [
             ['name', 'lang:admin::lang.label_name', 'required|min:2|max:255'],
             ['title_text', 'lang:babel.elements::default.elements_component.title_text', 'required|min:2|max:255'],
-            ['content_text', 'lang:babel.elements::default.elements_component.content_text', 'required_if:typeA,typeB |min:2|max:2000'],
+            ['content_text', 'lang:babel.elements::default.elements_component.content_text', 'required_if:typeA,typeB,typeK,typeL|min:2|max:2000'],
             ['comment_text', 'lang:babel.elements::default.elements_component.comment_text', 'required|min:2|max:50'],
             ['type', 'lang:babel.elements::default.elements.label_type', 'required|alpha|max:12'],
-            ['click_url', 'lang:babel.elements::default.elements.label_click_url', 'required_if:typeA,typeB|min:2|max:255'],
+            /*['click_url', 'lang:babel.elements::default.elements_component.label_click_url', 'required_if:type,typeB|min:2|max:255'],*/
+            ['click_url', 'lang:babel.elements::default.elements_component.label_click_url'],
             ['image_code', 'lang:babel.elements::default.elements.label_image', 'required_if:type,image'],
             ['custom_code', 'lang:babel.elements::default.elements.label_custom_code', 'required_if:type,custom'],
             ['element_images_info', 'element_images_info Text Here', 'required_if:type,typeA'],

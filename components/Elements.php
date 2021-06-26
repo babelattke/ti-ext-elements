@@ -133,6 +133,9 @@ class Elements extends BaseComponent
         $element->istypeG = ($model->type == 'typeG');
         $element->istypeH = ($model->type == 'typeH');
         $element->istypeI = ($model->type == 'typeI');
+        $element->istypeJ = ($model->type == 'typeJ');
+        $element->istypeK = ($model->type == 'typeK');
+        $element->istypeL = ($model->type == 'typeL');
 
         $element->imgInfo = $model->element_images_info;
 
@@ -159,6 +162,13 @@ class Elements extends BaseComponent
                 break;
             case 'typeI':               
                 $element->galleryImages = $this->prepareArrayImages($model);
+                break;
+            case 'typeJ':
+                $element->singleImage = $model->element_image;
+            case 'typeK':
+                $element->singleImage = $model->element_image;
+            case 'typeL':
+                $element->singleImage = $model->element_image;
                 break;
         }
         

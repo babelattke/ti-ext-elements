@@ -112,6 +112,9 @@ $config['form']['fields'] = [
             'typeH' => 'lang:babel.elements::default.types.image',
             'typeI' => 'lang:babel.elements::default.types.gallery',
             'typeJ' => 'lang:babel.elements::default.types.menu_list',
+            'typeK' => 'lang:babel.elements::default.types.full_post',
+            'typeL' => 'lang:babel.elements::default.types.single_post',
+
         ],
     ],
     'element_images' => [
@@ -135,7 +138,7 @@ $config['form']['fields'] = [
         'trigger' => [
             'action' => 'show',
             'field' => 'type',
-            'condition' => 'value[typeB][typeG][typeH]',
+            'condition' => 'value[typeB][typeG][typeH][typeJ][typeK][typeL]',
         ],
     ],
     'element_images_info' => [
@@ -204,7 +207,7 @@ $config['form']['fields'] = [
         'trigger' => [
             'action' => 'show',
             'field' => 'type',
-            'condition' => 'value[typeD][typeF][typeG][typeH][typeI]',
+            'condition' => 'value[typeD][typeF][typeG][typeH][typeI][typeJ][typeK][typeL]',
         ],       
     ],
     'content_text' => [
@@ -214,12 +217,17 @@ $config['form']['fields'] = [
         'trigger' => [
             'action' => 'show',
             'field' => 'type',
-            'condition' => 'value[typeA][typeB]',
+            'condition' => 'value[typeA][typeB][typeJ][typeK][typeL]',
         ], 
     ],
     'comment_text' => [
         'label' => 'lang:babel.elements::default.elements_component.comment_text',
-        'type' => 'text',        
+        'type' => 'text',  
+        'trigger' => [
+            'action' => 'show',
+            'field' => 'type',
+            'condition' => 'value[typeD][typeF][typeG][typeH][typeI][typeJ][typeK][typeL]',
+        ],       
     ],  
     'steps_background' => [
         'label' => 'lang:babel.elements::default.elements_component.steps_background',

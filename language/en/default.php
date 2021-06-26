@@ -24,7 +24,10 @@ return [
         'video' => 'Video',
         'image' => 'Element with Image',
         'gallery' => 'Gallery',
-        'menu_list' => 'Menu List'
+        'menu_list' => 'Menu List',
+        'static_menu' => 'Static Menu',
+        'full_post' => 'Full Post',
+        'single_post' => 'Single Post'
     ],
 
     'elements_component' => [
@@ -46,6 +49,7 @@ return [
         'label_status' => 'Status',
         'add_info_cards' => 'Add cards. (Compatible with Font Awesome Icons)',
         'cards_icon_label' => 'Icon (Add Font Awesome Class only)',
+        'label_click_url' => 'Button Text',
     ],
 
     'elements_labels' => [
