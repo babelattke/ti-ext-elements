@@ -2,7 +2,7 @@
     "code": "babel.elements",
     "name": "Elements",
     "description": "Add new elements to your TastyIgniter site! Banners, Gallery, Info Cards, etc.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Babelattke",
     "icon": {
       "class": "fas fa-sitemap",

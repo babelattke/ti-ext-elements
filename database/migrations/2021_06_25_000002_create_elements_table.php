@@ -7,14 +7,12 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Schema;
 
-class CreateElementsTable extends Migration
+class UpdateContentTable extends Migration
 {
     protected $recordsPath = __DIR__.'/../records';
 
     public function up()
     {
-        
-
         Schema::table('babel_elements', function (Blueprint $table) {            
             $table->string('content_text', 2000)->change();           
         });
